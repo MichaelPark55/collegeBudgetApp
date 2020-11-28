@@ -16,6 +16,7 @@
 		3A4F4753257214A20068C942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4F4751257214A20068C942 /* LaunchScreen.storyboard */; };
 		3A4F475B25721D4E0068C942 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F475A25721D4E0068C942 /* Transaction.swift */; };
 		3A4F475F257223FC0068C942 /* TransactionEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F475D257223FC0068C942 /* TransactionEntity+CoreDataProperties.swift */; };
+		3A4F4763257228F50068C942 /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F4762257228F50068C942 /* TransactionList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3A4F4754257214A20068C942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A4F475A25721D4E0068C942 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		3A4F475D257223FC0068C942 /* TransactionEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransactionEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A4F4762257228F50068C942 /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				3A4F475D257223FC0068C942 /* TransactionEntity+CoreDataProperties.swift */,
 				3A4F47432572149F0068C942 /* AppDelegate.swift */,
 				3A4F47452572149F0068C942 /* SceneDelegate.swift */,
+				3A4F4762257228F50068C942 /* TransactionList.swift */,
 				3A4F475A25721D4E0068C942 /* Transaction.swift */,
 				3A4F47472572149F0068C942 /* ViewController.swift */,
 				3A4F47492572149F0068C942 /* Main.storyboard */,
@@ -150,6 +153,7 @@
 				3A4F474E2572149F0068C942 /* collegeBudgetApp.xcdatamodeld in Sources */,
 				3A4F475F257223FC0068C942 /* TransactionEntity+CoreDataProperties.swift in Sources */,
 				3A4F47482572149F0068C942 /* ViewController.swift in Sources */,
+				3A4F4763257228F50068C942 /* TransactionList.swift in Sources */,
 				3A4F47442572149F0068C942 /* AppDelegate.swift in Sources */,
 				3A4F47462572149F0068C942 /* SceneDelegate.swift in Sources */,
 				3A4F475B25721D4E0068C942 /* Transaction.swift in Sources */,
