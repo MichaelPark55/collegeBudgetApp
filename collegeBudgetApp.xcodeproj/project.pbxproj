@@ -22,6 +22,7 @@
 		3A4F476925722EAC0068C942 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F476825722EAC0068C942 /* SearchViewController.swift */; };
 		3A4F476B25722EB90068C942 /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F476A25722EB90068C942 /* StatisticViewController.swift */; };
 		3A4F476D25722EF80068C942 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F476C25722EF80068C942 /* CategoryViewController.swift */; };
+		3A4F476F25726FBD0068C942 /* categoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F476E25726FBC0068C942 /* categoryModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		3A4F476825722EAC0068C942 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		3A4F476A25722EB90068C942 /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
 		3A4F476C25722EF80068C942 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		3A4F476E25726FBC0068C942 /* categoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoryModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			children = (
 				3A4F47432572149F0068C942 /* AppDelegate.swift */,
 				3A4F47452572149F0068C942 /* SceneDelegate.swift */,
+				3A4F476E25726FBC0068C942 /* categoryModel.swift */,
 				3A4F475D257223FC0068C942 /* TransactionEntity+CoreDataProperties.swift */,
 				3A4F475A25721D4E0068C942 /* Transaction.swift */,
 				3A4F4762257228F50068C942 /* TransactionList.swift */,
@@ -175,6 +178,7 @@
 				3A4F4763257228F50068C942 /* TransactionList.swift in Sources */,
 				3A4F47442572149F0068C942 /* AppDelegate.swift in Sources */,
 				3A4F47462572149F0068C942 /* SceneDelegate.swift in Sources */,
+				3A4F476F25726FBD0068C942 /* categoryModel.swift in Sources */,
 				3A4F475B25721D4E0068C942 /* Transaction.swift in Sources */,
 				3A4F476525722E8B0068C942 /* LocationViewController.swift in Sources */,
 			);

@@ -14,7 +14,7 @@ class Transaction {
     var title: String?
     var date: String?
     var dollarAmount: Double?
-    var photo: Data?
+    var photo: String?
     var Id: String?
     
     /**
@@ -29,7 +29,7 @@ class Transaction {
             - Id: transaction Id
         -Returns: a newly initliazed transaction
      */
-    init(t_cg: String, t_tl: String, t_dt: String, t_dAm: Double, t_pt: Data, t_Id: String) {
+    init(t_cg: String, t_tl: String, t_dt: String, t_dAm: Double, t_pt: String, t_Id: String) {
         category = t_cg
         title = t_tl
         date = t_dt

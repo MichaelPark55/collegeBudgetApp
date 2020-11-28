@@ -20,6 +20,9 @@ class TransactionList {
     var TransactionList:[Transaction] = []
     
     init() {
+        let t1 = Transaction(t_cg: "Transporation", t_tl: "Bus Fare", t_dt: "December 1st, 2020", t_dAm: 5.24, t_pt: "", t_Id: "T00001")
+        
+        TransactionList.append(t1)
         
     }
     
@@ -36,7 +39,7 @@ class TransactionList {
         TransactionList.remove(at: item)
     }
     
-    func addTransObject(category:String, title: String, date: String, amount: Double, photo: Data, Id: String) -> Transaction{
+    func addTransObject(category:String, title: String, date: String, amount: Double, photo: String, Id: String) -> Transaction{
         let t = Transaction(t_cg: category, t_tl: title, t_dt: date, t_dAm: amount, t_pt: photo, t_Id: Id)
         TransactionList.append(t)
         return t
