@@ -17,6 +17,11 @@
 		3A4F475B25721D4E0068C942 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F475A25721D4E0068C942 /* Transaction.swift */; };
 		3A4F475F257223FC0068C942 /* TransactionEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F475D257223FC0068C942 /* TransactionEntity+CoreDataProperties.swift */; };
 		3A4F4763257228F50068C942 /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F4762257228F50068C942 /* TransactionList.swift */; };
+		3A4F476525722E8B0068C942 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F476425722E8B0068C942 /* LocationViewController.swift */; };
+		3A4F476725722EA10068C942 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F476625722EA10068C942 /* AddViewController.swift */; };
+		3A4F476925722EAC0068C942 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F476825722EAC0068C942 /* SearchViewController.swift */; };
+		3A4F476B25722EB90068C942 /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F476A25722EB90068C942 /* StatisticViewController.swift */; };
+		3A4F476D25722EF80068C942 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F476C25722EF80068C942 /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		3A4F475A25721D4E0068C942 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		3A4F475D257223FC0068C942 /* TransactionEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransactionEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3A4F4762257228F50068C942 /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
+		3A4F476425722E8B0068C942 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		3A4F476625722EA10068C942 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		3A4F476825722EAC0068C942 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3A4F476A25722EB90068C942 /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
+		3A4F476C25722EF80068C942 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +74,19 @@
 		3A4F47422572149F0068C942 /* collegeBudgetApp */ = {
 			isa = PBXGroup;
 			children = (
-				3A4F475D257223FC0068C942 /* TransactionEntity+CoreDataProperties.swift */,
 				3A4F47432572149F0068C942 /* AppDelegate.swift */,
 				3A4F47452572149F0068C942 /* SceneDelegate.swift */,
-				3A4F4762257228F50068C942 /* TransactionList.swift */,
+				3A4F475D257223FC0068C942 /* TransactionEntity+CoreDataProperties.swift */,
 				3A4F475A25721D4E0068C942 /* Transaction.swift */,
+				3A4F4762257228F50068C942 /* TransactionList.swift */,
 				3A4F47472572149F0068C942 /* ViewController.swift */,
-				3A4F47492572149F0068C942 /* Main.storyboard */,
+				3A4F476625722EA10068C942 /* AddViewController.swift */,
+				3A4F476825722EAC0068C942 /* SearchViewController.swift */,
+				3A4F476A25722EB90068C942 /* StatisticViewController.swift */,
+				3A4F476C25722EF80068C942 /* CategoryViewController.swift */,
+				3A4F476425722E8B0068C942 /* LocationViewController.swift */,
 				3A4F474F257214A20068C942 /* Assets.xcassets */,
+				3A4F47492572149F0068C942 /* Main.storyboard */,
 				3A4F4751257214A20068C942 /* LaunchScreen.storyboard */,
 				3A4F4754257214A20068C942 /* Info.plist */,
 				3A4F474C2572149F0068C942 /* collegeBudgetApp.xcdatamodeld */,
@@ -150,13 +165,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A4F476925722EAC0068C942 /* SearchViewController.swift in Sources */,
 				3A4F474E2572149F0068C942 /* collegeBudgetApp.xcdatamodeld in Sources */,
 				3A4F475F257223FC0068C942 /* TransactionEntity+CoreDataProperties.swift in Sources */,
+				3A4F476B25722EB90068C942 /* StatisticViewController.swift in Sources */,
+				3A4F476D25722EF80068C942 /* CategoryViewController.swift in Sources */,
+				3A4F476725722EA10068C942 /* AddViewController.swift in Sources */,
 				3A4F47482572149F0068C942 /* ViewController.swift in Sources */,
 				3A4F4763257228F50068C942 /* TransactionList.swift in Sources */,
 				3A4F47442572149F0068C942 /* AppDelegate.swift in Sources */,
 				3A4F47462572149F0068C942 /* SceneDelegate.swift in Sources */,
 				3A4F475B25721D4E0068C942 /* Transaction.swift in Sources */,
+				3A4F476525722E8B0068C942 /* LocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

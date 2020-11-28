@@ -10,7 +10,10 @@ import UIKit
 import CoreData
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var dailyAmount: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
