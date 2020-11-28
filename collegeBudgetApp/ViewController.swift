@@ -53,6 +53,16 @@ class ViewController: UIViewController {
         }
         */
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if(segue.identifier == "categoryView"){
+            if let viewController: CategoryViewController = segue.destination as? CategoryViewController {
+            }
+            
+            
+        }
+    }
 
 
 }

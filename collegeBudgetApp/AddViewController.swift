@@ -15,14 +15,5 @@ class AddViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
-
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        if(segue.identifier == "addView"){
-            if let viewController: AddViewController = segue.destination as? AddViewController {
-            }
-        }
-    }
 
 }
