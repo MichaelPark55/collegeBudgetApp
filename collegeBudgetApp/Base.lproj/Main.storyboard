@@ -247,15 +247,25 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add Photo"/>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lvb-gy-Xon">
+                                <rect key="frame" x="139" y="133" width="165" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="W3y-g0-VGp"/>
                     </view>
                     <navigationItem key="navigationItem" id="obi-FI-C95"/>
+                    <connections>
+                        <outlet property="dateField" destination="lvb-gy-Xon" id="xaF-4d-PJT"/>
+                        <outlet property="entryTitle" destination="Xaw-Vo-fQs" id="qjM-kp-fkJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NGf-Hl-cSq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3174" y="-272"/>
+            <point key="canvasLocation" x="3173.913043478261" y="-272.28260869565219"/>
         </scene>
         <!--Add-->
         <scene sceneID="OHi-Ur-TH1">
