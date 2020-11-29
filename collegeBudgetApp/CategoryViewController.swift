@@ -44,12 +44,18 @@ class CategoryViewController: UIViewController, UITableViewDataSource, UITableVi
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
+        let selectedIndex: IndexPath = self.categoryTable.indexPath(for: sender as! UITableViewCell)!
+        
+        let category = categoryList.getCategoryName(loc: selectedIndex.row)
+        
+        
         if(segue.identifier == "addView"){
-            if let viewController: CategoryViewController = segue.destination as? CategoryViewController {
+            if let CategoryViewController: AddViewController = segue.destination as? AddViewController {
+                
+                CategoryViewController.selectedCategory = category
             }
-            
-            
         }
+        
     }
 
     

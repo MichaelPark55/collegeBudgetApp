@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A30195C25739EB0005DF607 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A30195B25739EB0005DF607 /* MapKit.framework */; };
 		3A4F47442572149F0068C942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F47432572149F0068C942 /* AppDelegate.swift */; };
 		3A4F47462572149F0068C942 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F47452572149F0068C942 /* SceneDelegate.swift */; };
 		3A4F47482572149F0068C942 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F47472572149F0068C942 /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A30195B25739EB0005DF607 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		3A4F47402572149F0068C942 /* collegeBudgetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collegeBudgetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4F47432572149F0068C942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A4F47452572149F0068C942 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,17 +53,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A30195C25739EB0005DF607 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A30195A25739EAF005DF607 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A30195B25739EB0005DF607 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3A4F47372572149F0068C942 = {
 			isa = PBXGroup;
 			children = (
 				3A4F47422572149F0068C942 /* collegeBudgetApp */,
 				3A4F47412572149F0068C942 /* Products */,
+				3A30195A25739EAF005DF607 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

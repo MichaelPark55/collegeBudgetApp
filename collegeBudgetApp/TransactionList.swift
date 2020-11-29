@@ -15,15 +15,36 @@ class TransactionList {
     // the number of transactions there are
     var numOfTrans: Int = 0
     
-    // a list of tuples, just for ease of grabbing the right transactions because there will be a search function
+    //array
+    var entryArray:[Transaction] = []
     
-    var TransactionList:[Transaction] = []
+    //dicitonary
+    //var TransactionList:[Transaction] = []
+    
+    var TransactionList = [String: [Transaction]]()
     
     init() {
         let t1 = Transaction(t_cg: "Transporation", t_tl: "Bus Fare", t_dt: "December 1st, 2020", t_dAm: 5.24, t_pt: "", t_Id: "T00001")
         
-        TransactionList.append(t1)
+        entryArray.append(t1)
         
+        print(entryArray.capacity)
+        
+    }
+    
+    func createEntryDictionary() {
+           // for each fruit in the fruit list from the fruits object
+           for Transaction in entryArray{
+             
+               // extract the first letter as a string for the key
+               let categoryName = Transaction.category
+               
+               //make the key
+            
+            
+               // build the fruit object array for each key
+    
+           }
     }
     
     
@@ -32,16 +53,16 @@ class TransactionList {
     }
     
     func getTransObject(item:Int) -> Transaction {
-        return TransactionList[item]
+        return entryArray[item]
     }
     
     func removeTransObject(item:Int) {
-        TransactionList.remove(at: item)
+        entryArray.remove(at: item)
     }
     
     func addTransObject(category:String, title: String, date: String, amount: Double, photo: String, Id: String) -> Transaction{
         let t = Transaction(t_cg: category, t_tl: title, t_dt: date, t_dAm: amount, t_pt: photo, t_Id: Id)
-        TransactionList.append(t)
+        entryArray.append(t)
         return t
     }
     
